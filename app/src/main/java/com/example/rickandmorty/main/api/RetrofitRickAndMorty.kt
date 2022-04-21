@@ -1,12 +1,11 @@
 package com.example.rickandmorty.main.api
 
-
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-private const val BASE_URL = "https://rickandmortyapi.com/api"
+private const val BASE_URL = "https://rickandmortyapi.com/api/"
 
-object RetrofitRickAndMorty {
+object RetrofitClient {
     private var retrofit: Retrofit? = null
 
     fun getRetrofit(): Retrofit {
@@ -18,8 +17,7 @@ object RetrofitRickAndMorty {
         }
         return retrofit!!
     }
-
-
+}
     //1. project structure
     //2. get data from api(log Timber)  UserIntercepter //As a result you should get heroes
     //3. reading recyclerView + Adapter + viewHolder
@@ -28,4 +26,3 @@ object RetrofitRickAndMorty {
     //recyclerview android look for methods
     //viewHolder
     //ListView
-}
