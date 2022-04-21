@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="corretto-11" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/fragments1" />
+            <option value="$PROJECT_DIR$/fragmentsyoutube" />
+            <option value="$PROJECT_DIR$/p2constraintlayout" />
+            <option value="$PROJECT_DIR$/p3layoutfiles" />
+            <option value="$PROJECT_DIR$/p4layouts" />
+            <option value="$PROJECT_DIR$/p5weight" />
+            <option value="$PROJECT_DIR$/p6screenelements" />
+            <option value="$PROJECT_DIR$/relativelayout" />
+            <option value="$PROJECT_DIR$/rickandmortymax" />
+            <option value="$PROJECT_DIR$/secondapp" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

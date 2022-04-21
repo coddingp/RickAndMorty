@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">p4Layouts</string>
+    <string name="button">Button</string>
+    <string name="string_of_the_button">string of the button</string>
+    <string name="first_text_view">First Text View</string>
+    <string name="change_text_below">Change text below</string>
+    <string name="ok">Ok</string>
+    <string name="type_anything_here">type anything here</string>
+    <string name="cancel">Cancel</string>
+    <string name="what_do_you_see_on_the_picture">What do you see on the picture?</string>
+    <string name="mark_with_x">mark with X</string>
+    <string name="this_is_weed">This is weed</string>
+    <string name="this_is_wheat">this is wheat</string>
+    <string name="this_is_rain_drop">this is rain drop</string>
+    <string name="dew_phenomenon">dew is the result of water changing from a vapor to a liquid
+            dew forms as temperatures drop and objects cool down if the object becomes cool enough
+            the air around the object will also cool colder air is less able to hold water vapor
+            than warm air</string>
+    <string name="todo">TODO</string>
+</resources>

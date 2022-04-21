@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change_text_below">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/editableText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:background="@android:drawable/editbox_background"
+        android:hint="@string/type_anything_here">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editableText1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:text="@string/ok">
+
+    </Button>
+
+    <Button
+        android:id="@+id/lastButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/okButton"
+        android:layout_toStartOf="@+id/okButton"
+        android:text="@string/cancel">
+
+    </Button>
+
+
+</RelativeLayout>

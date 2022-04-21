@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MainLinearLayoutStyle">
+
+    <LinearLayout
+        android:id="@+id/SecondLL"
+        style="@style/SecondaryLinearLayoutStyle"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/ButtonHeightAndWidth"
+            android:layout_weight="3"
+            android:text="@string/b1">
+
+        </Button>
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/ButtonHeightAndWidth"
+            android:layout_weight="7"
+            android:text="@string/b2">
+
+        </Button>
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/ButtonHeightAndWidth"
+            android:layout_weight="1"
+            android:text="@string/b3">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/thirdLL"
+        style="@style/MainLinearLayoutStyle">
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            style="@style/ButtonHeightAndWidth"
+            android:text="@string/checkbox" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -14,3 +14,13 @@ dependencyResolutionManagement {
 }
 rootProject.name = "RickAndMorty"
 include ':app'
+include ':secondapp'
+include ':p2constraintlayout'
+include ':p3layoutfiles'
+include ':p4layouts'
+include ':relativelayout'
+include ':rickandmortymax'
+include ':p5weight'
+include ':p6screenelements'
+include ':fragments1'
+include ':fragmentsyoutube'
