@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
         return super.onCreateOptionsMenu(menu)
     }
 //This one works as well as xml menu code
+// Don't delete this one :)
 //    override fun onCreateOptionsMenu(menu: Menu): Boolean {
 //        menu.add(0, 1, 0,"add")
 //        menu.add(0, 2, 0,"edit")

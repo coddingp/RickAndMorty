@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/fragments1" />
             <option value="$PROJECT_DIR$/fragmentsyoutube" />
+            <option value="$PROJECT_DIR$/galacticon" />
             <option value="$PROJECT_DIR$/logsandtoasts" />
             <option value="$PROJECT_DIR$/p13menu" />
             <option value="$PROJECT_DIR$/p14muenu2" />
@@ -23,6 +24,7 @@
             <option value="$PROJECT_DIR$/p5weight" />
             <option value="$PROJECT_DIR$/p6screenelements" />
             <option value="$PROJECT_DIR$/relativelayout" />
+            <option value="$PROJECT_DIR$/retrofitdoggy" />
             <option value="$PROJECT_DIR$/rickandmortymax" />
             <option value="$PROJECT_DIR$/secondapp" />
           </set>
