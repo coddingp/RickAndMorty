@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RetrofitDoggy</string>
+    <string name="upload_new_image">Upload new image</string>
+    <string name="dog_picture">Dog picture</string>
 </resources>

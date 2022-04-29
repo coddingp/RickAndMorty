@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cat My Own</string>
+    <string name="new_cat_image">New Cat Image</string>
+    <string name="cat_image">Cat Image</string>
+</resources>

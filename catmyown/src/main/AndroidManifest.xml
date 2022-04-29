@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.retrofitdoggy">
-<uses-permission android:name="android.permission.INTERNET"/>
+    package="com.example.catmyown">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/index"
         android:label="@string/app_name"
-        android:roundIcon="@android:drawable/ic_menu_more"
+        android:roundIcon="@drawable/index"
         android:supportsRtl="true"
         android:theme="@style/Theme.RickAndMorty">
         <activity
