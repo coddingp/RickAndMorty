@@ -1,10 +1,20 @@
 package com.example.catmyown.api
 
-import retrofit2.http.GET
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
 
-const val BASE_URL = "https://thecatapi.com/"
+private const val BASE_URL = "https://api.thecatapi.com/"
 
-interface CatRequest {
-    @GET("v1/images/search?breed_ids=beng&include_breeds=true")
-    suspend fun getRandomCat(): CatApi
+object CatRequest{
+    private var retrofit: Retrofit? = null
+
+    fun getRetrofit(): Retrofit {
+        if (retrofit == null) {
+            retrofit = Retrofit.Builder()
+                .baseUrl(BASE_URL)
+                .addConverterFactory(GsonConverterFactory.create())
+                .build()
+        }
+        return retrofit!!
+    }
 }
