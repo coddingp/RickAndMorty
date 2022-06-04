@@ -1,5 +1,6 @@
 package com.example.catmyown.ui
 
+import android.util.Log
 import com.example.catmyown.api.CatApi
 import com.example.catmyown.model.CatsClass
 import retrofit2.Call
@@ -25,6 +26,7 @@ class MainPresenter(private val catApi: CatApi) {
                 override fun onResponse(call: Call<CatsClass>, response: Response<CatsClass>) {
 
                     if (response.isSuccessful && response.body() != null) {
+                        Log.i("!onResponse", "response")
                         val data = response.body()!!
                         mainContract?.showCatsData(data)
                     }

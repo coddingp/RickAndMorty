@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create(ApiRequest::class.java)
-
+            Log.i("!!!"," !!!!!!!!!!!!!!!1")
         GlobalScope.launch(Dispatchers.IO) {
             try {
                 val response = api.getRandomDog()

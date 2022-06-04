@@ -20,6 +20,10 @@
             <option value="$PROJECT_DIR$/logsandtoasts" />
             <option value="$PROJECT_DIR$/p13menu" />
             <option value="$PROJECT_DIR$/p14muenu2" />
+            <option value="$PROJECT_DIR$/p15contextmenue" />
+            <option value="$PROJECT_DIR$/p16layoutparams" />
+            <option value="$PROJECT_DIR$/p17dynamiclayout" />
+            <option value="$PROJECT_DIR$/p18changelayout" />
             <option value="$PROJECT_DIR$/p2constraintlayout" />
             <option value="$PROJECT_DIR$/p3layoutfiles" />
             <option value="$PROJECT_DIR$/p4layouts" />
@@ -31,7 +35,6 @@
             <option value="$PROJECT_DIR$/secondapp" />
           </set>
         </option>
-        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>

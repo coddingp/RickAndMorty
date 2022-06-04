@@ -13,5 +13,4 @@ class MainActivity : AppCompatActivity() {
         val student:Student = get<Student>()
         student.beSmart()
     }
-
 }
